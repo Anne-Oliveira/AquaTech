@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width:  300px;
+    justify-content: space-between; 
+    color: #e3b062;
+    align-items: center;
+}
+
+.banner {
+    padding: 40px 0;
+    color: #fff;
+    height: 400px;
+    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .container p {
+    font-size: 36px;
+    width: 25%;
+}
+
+.banner .container p span {
+    color: #32b9cd;
+    font-weight: bold;
+}
+
+.social{
+    background-color: #fff;
+    padding: 40px;
+}
+
+.social .container {    
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    width: 150px;
+}
+
+.card img{
+    width: 100px;
+}
+.card h4{
+    font-size: 24px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer .container p {
+    font-size: 24px;
+}
+
+.logo {
+    width: 50px;
+}
